@@ -1,0 +1,50 @@
+[31-Jan-2024 13:23:30 UTC] PHP Warning:  require_once(functions_2.php): Failed to open stream: No such file or directory in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php on line 1159
+[31-Jan-2024 13:23:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'functions_2.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php:1159
+Stack trace:
+#0 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-settings.php(611): include()
+#1 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-config.php(96): require_once('/home/wnutscom/...')
+#2 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-load.php(50): require_once('/home/wnutscom/...')
+#3 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-admin/admin.php(34): require_once('/home/wnutscom/...')
+#4 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-admin/themes.php(10): require_once('/home/wnutscom/...')
+#5 {main}
+  thrown in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php on line 1159
+[31-Jan-2024 13:26:21 UTC] PHP Warning:  require_once(functions_2.php): Failed to open stream: No such file or directory in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php on line 1159
+[31-Jan-2024 13:26:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'functions_2.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php:1159
+Stack trace:
+#0 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-settings.php(611): include()
+#1 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-config.php(96): require_once('/home/wnutscom/...')
+#2 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-load.php(50): require_once('/home/wnutscom/...')
+#3 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-admin/admin.php(34): require_once('/home/wnutscom/...')
+#4 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-admin/themes.php(10): require_once('/home/wnutscom/...')
+#5 {main}
+  thrown in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php on line 1159
+[31-Jan-2024 13:26:26 UTC] PHP Warning:  require_once(functions_2.php): Failed to open stream: No such file or directory in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php on line 1159
+[31-Jan-2024 13:26:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'functions_2.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php:1159
+Stack trace:
+#0 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-settings.php(611): include()
+#1 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-config.php(96): require_once('/home/wnutscom/...')
+#2 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-load.php(50): require_once('/home/wnutscom/...')
+#3 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-admin/admin.php(34): require_once('/home/wnutscom/...')
+#4 /home/wnutscom/w3nuts.xyz/comsci/backend/wp-admin/index.php(10): require_once('/home/wnutscom/...')
+#5 {main}
+  thrown in /home/wnutscom/w3nuts.xyz/comsci/backend/wp-content/themes/comsci/functions.php on line 1159
+[03-Apr-2024 13:16:09 UTC] PHP Warning:  require_once(/home3/wnutscom/w3nuts.xyz/comsci/backend/wp-includes/l10n/class-wp-translation-controller.php): Failed to open stream: No such file or directory in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-includes/load.php on line 1493
+[03-Apr-2024 13:16:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/wnutscom/w3nuts.xyz/comsci/backend/wp-includes/l10n/class-wp-translation-controller.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-includes/load.php:1493
+Stack trace:
+#0 /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-includes/load.php(384): wp_load_translations_early()
+#1 /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-settings.php(76): wp_maintenance()
+#2 /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-config.php(96): require_once('/home3/wnutscom...')
+#3 /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-load.php(50): require_once('/home3/wnutscom...')
+#4 /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-admin/admin-ajax.php(22): require_once('/home3/wnutscom...')
+#5 {main}
+  thrown in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-includes/load.php on line 1493
+[05-Apr-2024 09:58:45 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 478
+[05-Apr-2024 09:58:45 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 479
+[05-Apr-2024 09:59:09 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 478
+[05-Apr-2024 09:59:09 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 479
+[05-Apr-2024 09:59:28 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 478
+[05-Apr-2024 09:59:28 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 479
+[05-Apr-2024 09:59:36 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 478
+[05-Apr-2024 09:59:36 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 479
+[05-Apr-2024 10:00:07 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 478
+[05-Apr-2024 10:00:07 UTC] PHP Warning:  Undefined array key "taxonomy" in /home3/wnutscom/w3nuts.xyz/comsci/backend/wp-content/plugins/copy-delete-posts/post/handler.php on line 479
